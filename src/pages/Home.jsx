@@ -46,4 +46,37 @@ export default function Home() {
               allowFullScreen
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
-          </div>
+            <div/>
+        
+
+        <Marquee
+            direction="left"
+            speed={50}
+            gradient
+            gradientWidth={0}
+            gradientColor={[31, 31, 31]}
+          >
+            {videoItems.map((videos, id) => (
+              <button
+                key={id}
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                  setVideoId(
+                    `https://www.youtube.com/embed/${videos.contentDetails.videoId}`
+                  );
+                }}
+              >
+                <PopUp
+                  src={videos.snippet.thumbnails.high.url}
+                  title={videos.snippet.title}
+                />
+              </button>
+            ))}
+          </Marquee>
+        </BaseLayout>
+      ) : (
+        <h1>No Data</h1>
+      )}
+    </>
+  );
+}
