@@ -25,3 +25,14 @@ export default function Home() {
   }, []);
 
 
+  return (
+    <>
+      {loader ? (
+        <Loader />
+      ) : videoItems.length > 0 ? (
+        <BaseLayout>
+          <div
+            className={`${
+              videoId ? "d-md-flex" : "d-none"
+            } justify-content-center`}
+          ></div>
