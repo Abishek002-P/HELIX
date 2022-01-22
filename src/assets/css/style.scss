@@ -78,6 +78,10 @@ a {
   min-height: 75vh;
 }
 
+.vh-25 {
+  min-height: 25vh;
+}
+
 .customButton {
   background-color: var(--button-bg-color);
   color: var(--button-text-color);
@@ -108,7 +112,6 @@ a {
 .text-pattarai {
   letter-spacing: 3.5vw;
 }
-
 
 @keyframes animate {
   from {
