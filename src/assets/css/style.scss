@@ -1,0 +1,110 @@
+// @import "./landingpage.scss";
+@import "~bootstrap/scss/bootstrap";
+// @import "../fonts/fonts.css";
+@import "./home.scss";
+@import "./landingpage.scss";
+
+// @import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap%27");
+
+.theme-dark {
+  --color-start: #fe7e6d;
+  --color-end: #2f3a8f;
+  --bg-color: #000000;
+  --text-color: #fafafa;
+  --main-color: #000000da;
+  --button-text-color: #fafafa;
+  --button-bg-color: #100f10;
+  --card-color: #1b1b1b;
+  --theme-button-color: #1b1b1b;
+  --button-shadow: 1px 1px 2px #a894ff;
+}
+
+.theme-light {
+  --color-start: #2f3a8f;
+  --color-end: #fe7e6d;
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --button-text-color: #555555;
+  --button-bg-color: #ffffff;
+  --card-color: #ffffff;
+  --theme-button-color: #ffffff;
+  --main-color: #ffffffda;
+  --button-shadow: 1px 1px 5px #a28ff8;
+}
+
+/* Custom Scrollbar */
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track {
+  background-color: var(--bg-color);
+}
+html::-webkit-scrollbar-thumb {
+  background-color: var(--text-color);
+  border-radius: 10px;
+}
+/* Custom Scrollbar */
+
+* {
+  color: var(--text-color);
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.card {
+  background-color: var(--card-color);
+}
+
+a {
+  color: inherit;
+}
+
+.main-bg {
+  background-color: var(--main-color);
+}
+
+.vh-100 {
+  min-height: 100vh;
+}
+
+.vh-75 {
+  min-height: 75vh;
+}
+
+.customButton {
+  background-color: var(--button-bg-color);
+  color: var(--button-text-color);
+  font-weight: bold;
+  font-family: Jost;
+  letter-spacing: 1px;
+  border-radius: 7px;
+  padding: 10px;
+  box-shadow: var(--button-shadow);
+}
+
+.themeButton {
+  background-color: var(--theme-button-color);
+  color: var(--button-text-color);
+  font-weight: bold;
+  border-radius: 7px;
+  padding: 10px;
+  box-shadow: var(--button-shadow);
+}
+
+.text-pattarai-s,
+.text-pattarai {
+  color: var(--text-color);
+  font-family: Montserrat;
+  font-size: 1.2vw;
+}
+
+.text-pattarai {
+  letter-spacing: 3.5vw;
+}
