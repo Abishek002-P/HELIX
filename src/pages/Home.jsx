@@ -4,6 +4,7 @@ import Marquee from "react-fast-marquee";
 import PopUp from "../components/PopUpCards";
 import Loader from "../components/Loader";
 import BaseLayout from "../components/BaseLayout";
+import NoStream from "../assets/images/NoStream.png";
 
 export default function Home() {
   const { REACT_APP_YOUTUBE_API_KEY } = process.env;
@@ -34,18 +35,35 @@ export default function Home() {
             className={`${
               videoId ? "d-md-flex" : "d-none"
             } justify-content-center`}
-          ></div>
+          >
+            <iframe
+              id="youtubeLive"
+              title="Youtube Live Stream"
+              className="col-12 col-md-10 pb-3 px-md-3 iframe-height"
+              src={videoId}
+              frameBorder="0"
+              allowFullScreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+          </div>
 
-          <iframe
-            id="youtubeLive"
-            title="Youtube Live Stream"
-            className="col-12 col-md-10 pb-3 px-md-3 iframe-height"
-            src={videoId}
-            frameBorder="0"
-            allowFullScreen
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          ></iframe>
-          <div />
+          <div
+            className={`${
+              videoId ? "d-none" : "d-md-flex"
+            } justify-content-center`}
+          >
+            <div id="no-stream">
+              <img
+                className="img-fluid px-md-3"
+                src={NoStream}
+                height={400}
+                alt=""
+              />
+              <h5 className="text-center stream-text text-secondary">
+                Live Stream is Down. Check out our recorded events!
+              </h5>
+            </div>
+          </div>
 
           <Marquee
             direction="left"
@@ -59,6 +77,7 @@ export default function Home() {
                 key={id}
                 onClick={() => {
                   window.scrollTo(0, 0);
+                  document.getElementById("no-stream").style.display = "none";
                   setVideoId(
                     `https://www.youtube.com/embed/${videos.contentDetails.videoId}`
                   );

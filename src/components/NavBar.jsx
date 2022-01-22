@@ -2,11 +2,7 @@ import firebase from "firebase/app";
 import { useHistory } from "react-router-dom";
 import Toggle from "../components/DarkTheme";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHome,
-  faPodcast,
-  faSignOutAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import { faSignOutAlt } from "@fortawesome/free-solid-svg-icons";
 
 export default function NavBar() {
   const history = useHistory();
@@ -25,7 +21,7 @@ export default function NavBar() {
         <Toggle />
 
         <div className="d-flex">
-          <button
+          {/* <button
             className="h-25 d-flex align-items-center button customButton"
             onClick={() => {
               history.push("/home");
@@ -33,9 +29,9 @@ export default function NavBar() {
           >
             <FontAwesomeIcon color="#0c4ec9" size="1x" icon={faHome} />{" "}
             <span className="d-md-block d-none ms-2">HOME</span>
-          </button>
+          </button> */}
 
-          <button
+          {/* <button
             className="h-25 d-flex align-items-center button customButton mx-4"
             onClick={() => {
               history.push("/live");
@@ -43,7 +39,7 @@ export default function NavBar() {
           >
             <FontAwesomeIcon color="#0c4ec9" size="1x" icon={faPodcast} />{" "}
             <span className="d-md-block d-none ms-2">LIVE NOW</span>
-          </button>
+          </button> */}
 
           <button
             className="h-25 d-flex align-items-center button customButton"
