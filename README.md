@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+## **IIT Bombay UpGrad Campus Product Hackathon**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### **Helix**
 
-## Available Scripts
+![image]()
 
-In the project directory, you can run:
+---
 
-### `npm start`
+#### **Team Members**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Abishek P**, Full Stack Developer
+- **Anton Jud Raj**, FrontEnd Developer
+- **Varshini B**, FrontEnd Developer
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+#### **Project Description**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Helix is a Workshop Hub platform
 
-### `npm run build`
+##### **Inspiration**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This pandemic made education a little bit tough for students in the area of understanding and live interaction, so as a team we decided to make our own online educational platform that will be easy to access, free to learn, open to development and innovation. So let us introduce you to "HELIX-XD".
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##### **How does the hack solve the Problem given/identified?**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Using the Internet, everything has become easy to access and learn, and with easy teaching from educationalists, understanding is made easier. We are tech-oriented, as of now we are focused on bringing out the best of the latest technology to learn from youtube in a user-friendly and easy-to-access format in our platform. And we also developed our very own live hosting page along with live chat to clear doubts of learners in real-time of live sessions.
 
-### `npm run eject`
+##### **How was it built?**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+We basically used ReactJS for this project for the User Interfaces (which comprises the front-end of the product) and for the user's authentication we used Firebase, an open-source online DB which is provided by Google. The project is actually a React application and we made it super responsive using Bootstrap version 5.1.3, it is adaptable and responsive for all screen sizes. Moving on to the functionality we built this especially for the students to benefit so we had our perspectives from a student’s point of view and that’s how we built Helix
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##### **Challenges faced**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- We faced quite a few challenges which includes the fixes in UI and in responsiveness
+- Also, we had a few difficulties in the live streaming and in video players
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+##### **Accomplishments**
 
-## Learn More
+We accomplished almost everything that we wanted to see in our project as a product but still, we are planning to add more features to the project to make it more User interactive and more feasible
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##### **Tech stack used**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- We used ReactJS for the frontend
+- And Firebase for the authentication and backend
+- We used Bootstrap and React Bootstrap as a UI - Framework
+- Languages: HTML, javascript,CSS/SCSS
 
-### Code Splitting
+#### **Site URL** - [Helix]()
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### **Test Links**
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### **Presentation**
 
-### Making a Progressive Web App
+Product Demo: [Video Link]()<br>
+![image]()<br>
+![image]()<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### **License**
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This repository includes an [MIT Licensed]().
