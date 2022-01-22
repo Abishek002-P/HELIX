@@ -41,10 +41,6 @@ export default function LandingPage() {
           style={{ height: "80vh" }}
         >
           <div className="text-center">
-            <p className="mb-0">
-              <span className="text-pattarai">PATTARAI</span>{" "}
-              <span className="text-pattarai-s">'S</span>
-            </p>
             <p className="title-word text-center">H E L I X</p>
             <button
               className="button customButton mt-3"
