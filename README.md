@@ -2,7 +2,7 @@
 
 ### **Helix**
 
-![image](https://ibb.co/72CvNL9)
+![image](<a href="https://ibb.co/72CvNL9"><img src="https://i.ibb.co/5B4Txw7/landingpg.png" alt="landingpg" border="0"></a>)
 
 ---
 
