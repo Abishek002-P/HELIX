@@ -3,6 +3,9 @@ import { useHistory } from "react-router-dom";
 import firebase from "firebase/app";
 import "firebase/auth";
 import "../firebase";
+import FadeIn from "../animations/FadeIn";
+import Particles from "../animations/Particles";
+import Toggle from "../components/DarkTheme";
 
 
 export default function LandingPage() {
@@ -32,16 +35,16 @@ export default function LandingPage() {
 
   return (
     <>
-      {/* <FadeIn> */}
+      <FadeIn>
         <p className="p-3">
-          {/* <Toggle /> */}
+          <Toggle />
         </p>
         <div
           className="d-flex align-items-center justify-content-center main-bg w-100"
           style={{ height: "80vh" }}
         >
           <div className="text-center">
-            <p className="title-word text-center">H E L I X</p>
+            <p className="title-word text-center">H E L I X - X D</p>
             <button
               className="button customButton mt-3"
               onClick={signInWithGoogle}
@@ -50,8 +53,8 @@ export default function LandingPage() {
             </button>
           </div>
         </div>
-      {/* </FadeIn> */}
-      {/* <Particles /> */}
+      </FadeIn>
+      <Particles />
     </>
   );
 }
