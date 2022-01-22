@@ -24,7 +24,6 @@ export default function Home() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-
   return (
     <>
       {loader ? (
@@ -37,19 +36,18 @@ export default function Home() {
             } justify-content-center`}
           ></div>
 
-<iframe
-              id="youtubeLive"
-              title="Youtube Live Stream"
-              className="col-12 col-md-10 pb-3 px-md-3 iframe-height"
-              src={videoId}
-              frameBorder="0"
-              allowFullScreen
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            ></iframe>
-            <div/>
-        
+          <iframe
+            id="youtubeLive"
+            title="Youtube Live Stream"
+            className="col-12 col-md-10 pb-3 px-md-3 iframe-height"
+            src={videoId}
+            frameBorder="0"
+            allowFullScreen
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          ></iframe>
+          <div />
 
-        <Marquee
+          <Marquee
             direction="left"
             speed={50}
             gradient
