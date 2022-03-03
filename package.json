@@ -20,6 +20,7 @@
     "framer-motion": "^6.2.1",
     "marquee": "^0.2.1",
     "mr-chat-client": "^1.1.0",
+    "nodemon": "^2.0.15",
     "particles-bg": "^2.5.5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -34,7 +35,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch": "nodemon --watch \"src/\" --exec \"node src/app.js\""
   },
   "eslintConfig": {
     "extends": [
