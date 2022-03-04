@@ -32,7 +32,7 @@ export default function Home() {
       ) : videoItems.length > 0 ? (
         <BaseLayout>
           <button className="button customButton mt-3 d-md-block d-none ms-2">
-            <a href="http://localhost:3000/?room=Test_meet_1050333253">Live</a>
+            <a href="http://localhost:3000/?room=abcd">Live</a>
           </button>
           <div
             className={`${
