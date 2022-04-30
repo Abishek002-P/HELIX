@@ -31,9 +31,9 @@ export default function Home() {
         <Loader />
       ) : videoItems.length > 0 ? (
         <BaseLayout>
-          <button className="button customButton mt-3 d-md-block d-none ms-2">
+          {/* <button className="button customButton mt-3 d-md-block d-none ms-2">
             <a href="http://localhost:3000/?room=abcd">Live</a>
-          </button>
+          </button> */}
           <div
             className={`${
               videoId ? "d-md-flex" : "d-none"

@@ -46,7 +46,12 @@ export default function NavBar() {
             onClick={logout}
           >
             <FontAwesomeIcon color="#0c4ec9" size="1x" icon={faSignOutAlt} />{" "}
-            <span className="d-md-block d-none ms-2">SIGN OUT</span>
+            <span className="d-md-block d-none ms-2">SIGNOUT</span>
+          </button>
+          <button className="h-25 d-flex align-items-center button customButton margin-left">
+            <span className="d-md-block d-none ms-1">
+              <a href="http://localhost:3000/?room=abcd">LIVE</a>
+            </span>
           </button>
         </div>
       </section>
